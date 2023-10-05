@@ -2,7 +2,7 @@
 
 int main() {
 	FILE *FUMO = fopen("fumo.txt", "r");
-	while(!feof(FUMO)){dsffsdfsfsdfss
+	while(!feof(FUMO)){
 		printf("%c", getc(FUMO));
 	}
 	
